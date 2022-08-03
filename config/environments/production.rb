@@ -91,4 +91,9 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # These two lines are used to enable to test ActionCable (received: (data))
+  # on the cloud service (use one of them not two as the same time):
+  # config.action_cable.disable_request_forgery_protection = true
+  # config.action_cable.allowed_request_origins = ['']
 end

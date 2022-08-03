@@ -58,4 +58,9 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+
+  # These two lines are used to enable to test ActionCable (received: (data))
+  # on the cloud service (use one of them not two as the same time):
+  # config.action_cable.disable_request_forgery_protection = true
+  # config.action_cable.allowed_request_origins = ['']
 end

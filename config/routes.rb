@@ -8,4 +8,7 @@ Rails.application.routes.draw do
   delete 'logout', to: 'sessions#destroy'
 
   post 'message', to: 'messages#create'
+
+  # Endpoint for Chatroom channel
+  mount ActionCable.server, at: '/cable'
 end
