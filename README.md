@@ -1,6 +1,6 @@
 # MessageMe
 
-This web application is a result of the course [The Complete Ruby on Rails Course](https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course) on Udemy platform.
+This web application is a result of the [The Complete Ruby on Rails Course](https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course) course on Udemy platform.
 
 You can see an oline demo of this app on message-me-1001.herokuapp.com.
 
